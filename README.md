@@ -1,2 +1,2 @@
 # OreGenerator
-Delay until you're in the mood
+Delay until I'm in the mood
