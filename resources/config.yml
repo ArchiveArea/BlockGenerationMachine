@@ -1,0 +1,37 @@
+---
+# Send ore generators to players who join the server for the first time.
+# Set amout: 0 to disable this feature.
+firstJoin:
+  amount: 1 # The number of ore generators sent to the player.
+  level: 1 # The ore generator's level is sent to the player.
+
+# Custom name of ore generator item
+# {level} : Level of ore generator
+customName: "§f[§o§bOre Generator §aLevel §c{level}§r§f]§r"
+
+# First block is generated when player places ore generator.
+defaultBlock: "cobblestone"
+
+# invalidPosition > A piano sound is played when the player places the ore generator in an invalid position.
+# newResource > A sound is played when the ore generator generates a new resource.
+sounds:
+  invalidPosition: true
+  newResource: true
+
+# ownerMode: true > Only owners of ore generators can use their ore generators.
+# delayTime > Delay time for a new resource to be generated. (Seconds)
+oreGenerators:
+  level_1:
+    ownerMode: true
+    delayTime: 3
+    durability: 1000 # TODO
+    ores:
+      "stone": 100
+  level_2:
+    ownerMode: true
+    delayTime: 1
+    durability: 2000 # TODO
+    ores:
+      "stone": 50
+      "diamond_block": 50
+...

@@ -1,0 +1,6 @@
+---
+name: OreGenerator
+version: 0.0.1
+main: NhanAZ\OreGenerator\OreGenerator
+api: 5.0.0
+...
